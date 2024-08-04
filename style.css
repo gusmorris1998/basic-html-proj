@@ -1,5 +1,5 @@
 body {
-    margin: 20px 50px;
+    margin: 20px 100px;
 }
 
 header {
@@ -14,17 +14,42 @@ header {
 }
 
 .half-flex {
+    /* margin: 50px; */
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+
+.half-flex p {
+    margin: 0px;
+}
+
+.half-flex h1 {
+    margin-bottom: 0px;
+}
+
+.half-flex button {
+    align-self: flex-start;
+}
+
+.half-flex img {
+    align-self: center;
 }
 
 .row-block-one {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.row-block-two {
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.image-captions {
+    display: flex;
 }
 
 
