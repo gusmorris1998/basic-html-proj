@@ -1,11 +1,22 @@
+* {
+    margin: 0px;
+}
+
 body {
-    margin: 20px 100px;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
 }
 
 .header-links {
@@ -23,10 +34,15 @@ header {
 
 .half-flex p {
     margin: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .half-flex h1 {
     margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .half-flex button {
@@ -44,14 +60,38 @@ header {
 }
 
 .row-block-two {
-    margin: 0px 30px;
+    background-color: white;
+    padding: 0px 30px;
     text-align: center;
 }
+
+.row-block-two h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+
+}
+
 
 .image-captions {
     display: flex;
 }
 
+.image-caption {
+    
+}
+
+.image-caption img {
+    height: 100px;
+}
+
+.row-block-three {
+    background-color: #e5e7eb;
+}
+
+.row-block-four {
+    background-color: white;
+}
 
 
 .leaf {
